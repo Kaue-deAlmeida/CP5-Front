@@ -11,10 +11,10 @@ import Footer from './components/Footer';
 
 function App() {
   const [cartCount, setCartCount] = useState(0);
-  const [temaEscuro, setTemaEscuro] = useState(false); // ← Tem isso?
+  const [temaEscuro, setTemaEscuro] = useState(false); 
 
   const alternarTema = () => {
-    setTemaEscuro(!temaEscuro); // ← E isso?
+    setTemaEscuro(!temaEscuro); 
   };
 
   const adicionarAoCarrinho = () => {
